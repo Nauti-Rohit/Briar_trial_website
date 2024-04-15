@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*=========================================
+        07. FEATURE SECTION CSS
+============================================*/
+.icon-box-left {
+    position: relative;
+    padding-left: 60px;
+    text-align: left;
+}
+.icon-box-left .icon-box-icon {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    left: 0;
+    text-align: center !important;
+    line-height: 3.375rem;
+    font-size: 2.1875rem;
+}
+.icon-box .icon-box-icon {
+    font-size: 2.375rem;
+    margin: 0 0 10px;
+    transition: all .3s ease-in-out;
+}
+.icon-box:hover .icon-box-icon {
+    transform: translateY(-5px);
+}
+
+/* /feature box css/ */
+
+.features-box{
+    position: relative;
+    display: block;
+}
+.features-box-icon {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.features-box-icon i {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    color: #65258a;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.features-box-content {
+    display: table-cell;
+    padding-left: 20px;
+}
+.act{
+    border: 0 !important;
+    border-bottom: 1px solid  !important;
+    -o-border-image: linear-gradient(102.57deg,#dc0916,#f41fd6 100%,#f41fd6 0)  !important;
+    border-image: linear-gradient(102.57deg,#dc0916,#f41fd6 100%,#f41fd6 0)  !important;
+    color: #fff  !important;
+    border-image-slice: 1  !important;
+    background: transparent  !important;
+}
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <section class="outstanding-section ptb-100 gray-light-bg">
+        <div class="container-fluid">
+            <div class="row bg-black">
+                <div class="col-md-12 col-lg-12">
+                    <div class="feature-tabs-wrap">
+                        <ul class="nav nav-tabs border-bottom-0 feature-tabs feature-tabs-center d-flex justify-content-center py-5"
+                            data-tabs="tabs">
+                            <h3 class="text-white mx-5">TCS at a glance</h3>
+                            <li class="nav-item px-3" id="ft1" onclick="fet1()">
+                                <a class="nav-link text-center act" href="#feature-tab-1"
+                                   data-toggle="tab">
+                                    <span class="ti-announcement icon-sm"></span>
+                                    <h6 class="mb-0">Our commitment</h6>
+                                </a>
+                            </li>
+                            <li class="nav-item px-3" id="ft2" onclick="fet2()">
+                                <a class="nav-link text-center act" href="#feature-tab-2"
+                                   data-toggle="tab">
+                                    <span class="ti-light-bulb icon-sm"></span>
+                                    <h6 class="mb-0">Our road-map</h6>
+                                </a>
+                            </li>
+                            <li class="nav-item px-3" id="ft3"  onclick="fet3()">
+                                <a class="nav-link text-center act" href="#feature-tab-3"
+                                   data-toggle="tab">
+                                    <span class="ti-email icon-sm"></span>
+                                    <h6 class="mb-0">Our  context</h6>
+                                </a>
+                            </li>
+                            <li class="nav-item px-3" id="ft4"  onclick="fet4()">
+                                <a class="nav-link text-center act" href="#feature-tab-4"
+                                   data-toggle="tab">
+                                    <span class="ti-shield icon-sm"></span>
+                                    <h6 class="mb-0">Our belief</h6>
+                                </a>
+                            </li>
+                            <li class="nav-item px-3" id="ft5" onclick="fet5()">
+                                <a class="nav-link text-center act" href="#feature-tab-5"
+                                   data-toggle="tab">
+                                    <span class="ti-vector icon-sm"></span>
+                                    <h6 class="mb-0">Our story</h6>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content feature-tab-content">
+                            <div class="tab-pane mt-5  active" id="feature-tab-1">
+                                <div class="row justify-content-around">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-4 mt-5">
+                                        <h2 class="text-center text-white mt-5">
+                                            In it for good 1
+                                        </h2>
+                                        <p class="text-white" style="font-size:19px;">
+                                            We take a long-term view, building relationships <br> that endure, leading to mutual growth and <br> sustainable outcomes.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="image-wrap">
+                                            <img src="img/build-together_Small.jpeg" alt="why choose us" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane mt-5" id="feature-tab-2">
+                                <div class="row justify-content-around">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-4 mt-5">
+                                        <h2 class="text-center text-white mt-5">
+                                            In it for good 2
+                                        </h2>
+                                        <p class="text-white" style="font-size:19px;">
+                                            We take a long-term view, building relationships <br> that endure, leading to mutual growth and <br> sustainable outcomes.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="image-wrap">
+                                            <img src="img/build-together_Small.jpeg" alt="why choose us" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane mt-5" id="feature-tab-3">
+                                <div class="row justify-content-around">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-4 mt-5">
+                                        <h2 class="text-center text-white mt-5">
+                                            In it for good 3
+                                        </h2>
+                                        <p class="text-white" style="font-size:19px;">
+                                            We take a long-term view, building relationships <br> that endure, leading to mutual growth and <br> sustainable outcomes.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="image-wrap">
+                                            <img src="img/build-together_Small.jpeg" alt="why choose us" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane mt-5" id="feature-tab-4">
+                                <div class="row justify-content-around">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-4 mt-5">
+                                        <h2 class="text-center text-white mt-5">
+                                            In it for good 4
+                                        </h2>
+                                        <p class="text-white" style="font-size:19px;">
+                                            We take a long-term view, building relationships <br> that endure, leading to mutual growth and <br> sustainable outcomes.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="image-wrap">
+                                            <img src="img/build-together_Small.jpeg" alt="why choose us" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane mt-5" id="feature-tab-5">
+                                <div class="row justify-content-around">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-4 mt-5">
+                                        <h2 class="text-center text-white mt-5">
+                                            In it for good 5
+                                        </h2>
+                                        <p class="text-white" style="font-size:19px;">
+                                            We take a long-term view, building relationships <br> that endure, leading to mutual growth and <br> sustainable outcomes.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="image-wrap">
+                                            <img src="img/build-together_Small.jpeg" alt="why choose us" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+    
+</body>
+</html>

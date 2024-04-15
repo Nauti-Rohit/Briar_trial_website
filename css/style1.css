@@ -1,0 +1,583 @@
+body {
+  background-color: black;
+}
+/* 1) Navigation Bar */
+.nvmain {
+  background-color: #1e2222 !important;
+  height: 72px;
+}
+.lg-1 {
+  width: 150px;
+}
+.nl-1 {
+  color: white !important;
+  margin: 15px;
+}
+.nl-1:hover {
+  text-decoration: rgb(227, 12, 120) underline;
+  text-underline-offset: 15px;
+}
+.nl-2 {
+  font-family: basic-bold;
+  color: white !important;
+  margin: 17px;
+  margin-left: 243px;
+}
+.nl-2:hover {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+.nl-3 {
+  font-family: basic-bold;
+  color: white !important;
+  margin: 17px;
+  margin-left: 30px;
+}
+.nl-3:hover {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+.lg-2 {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.lg-3 {
+  margin-left: 5px;
+}
+
+/* 2) First Slidder */
+.ani {
+  margin-top: 150px !important;
+  margin: 0px auto;
+}
+
+.a {
+  border: none;
+}
+
+.a:hover {
+  transform: scale(1.2);
+  transition: 2.5s;
+}
+
+.btn1 {
+  border-radius: 40px;
+}
+
+.btn1 a {
+  text-decoration: none !important;
+  color: white;
+}
+.sl-1 {
+  opacity: 0.3;
+}
+
+/* 3) Story */
+.story {
+  height: 316.67px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.snap {
+  color: aliceblue;
+  margin-top: -48px;
+  line-height: 2;
+}
+
+.storyp1 {
+  color: aliceblue;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.story1 {
+  height: 150px;
+  width: 160px;
+  object-fit: cover;
+  border: 3.5px solid rgb(227, 12, 120);
+  border-radius: 100%;
+  margin: 40px;
+  padding: 10px;
+}
+
+/* 4) Qwetions */
+.qwe {
+  height: 660px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.text1 {
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+
+.para2 {
+  position: absolute;
+  top: 85px;
+  left: 5%;
+  color: gray;
+}
+
+.heading2 {
+  position: absolute;
+  top: 145px;
+  left: 5%;
+  color: white;
+}
+
+/* 5) interest */
+.interest {
+  height: 616.89px;
+  width: 100%;
+}
+
+.int-h1 {
+  color: white;
+}
+
+.int-h2 {
+  margin-left: 580px;
+}
+
+.int-h2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.int-col {
+  margin-top: 30px;
+}
+
+.int-img {
+  position: relative;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+.int-heading a {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  text-decoration: none;
+  color: rgb(30, 28, 28);
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #747678;
+}
+
+.int-para a {
+  position: absolute;
+  top: 350px;
+  left: 40px;
+  text-decoration: none;
+  color: white;
+  font-family: basis-regular;
+  font-size: 23px;
+}
+
+/* 6) Disc */
+.disc {
+  height: 590px;
+  width: 100%;
+  background-color: black;
+}
+
+.heading4 {
+  color: aliceblue;
+}
+
+.tabs {
+  margin-top: 50px;
+  background-color: black;
+}
+
+.tabs-div {
+  background-color: rgb(3, 3, 3);
+  height: 400px;
+  position: relative;
+  opacity: 0.3;
+}
+
+.tabs-buttn {
+  position: absolute;
+  bottom: -8%;
+  left: 15%;
+  width: 60%;
+  border: none;
+  height: 100px;
+}
+
+.active1 {
+  opacity: 1;
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+.active2 {
+  bottom: -3%;
+  border: 2px solid rgb(247, 6, 199);
+}
+
+.img-fluid {
+  height: 400px;
+  position: relative;
+  opacity: 0.6;
+}
+
+.tabs-buttn {
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(247, 6, 199);
+}
+
+.bnhe4 {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-family: Houschka-medium;
+  color: rgb(247, 248, 246);
+}
+
+.bnp a {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.bnp1 a {
+  position: absolute;
+  top: 140px;
+  left: 30px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* 7) info */
+.info {
+  background-color: white;
+  height: 684px;
+  width: 100%;
+  position: relative;
+}
+
+.b1 {
+  height: 436px;
+  width: 771px;
+  position: absolute;
+  top: 110px;
+  left: 70%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+
+.bnheup {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.15em;
+  color: #747678;
+  font-family: Basis-bold;
+  margin-left: 50px;
+  margin-top: 70px;
+}
+
+.text-image-banner-title {
+  font-family: Houschka-medium;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  color: #b03c00;
+  margin-left: 50px;
+}
+
+.p1 {
+  margin-left: 50px;
+  color: #747678;
+}
+
+.p2 a {
+  text-decoration: none !important;
+  color: black;
+  margin-left: 50px;
+  font: 18px basis-medium;
+}
+
+.rarrow {
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  color: #fff;
+  padding: 8px;
+}
+
+.rarrow:hover {
+  background-color: #fff;
+  color: black;
+}
+
+/* 8) slider 3 */
+.slide3 {
+  height: 550px;
+  width: 100%;
+  background-color: black;
+}
+
+.ba-mheading {
+  font-family: Houschka-medium;
+  font-size: 32px;
+  color: white;
+}
+
+.bai {
+  margin-top: 30px;
+  background-color: black;
+}
+
+.img-ba {
+  height: 450px;
+  width: 350px;
+  border-radius: 5px;
+  position: relative;
+  transform: scale(1);
+  opacity: 0.7;
+}
+
+.img-ba:hover {
+  transform: scale(1.04);
+  transition: transform 3s;
+}
+
+.ba-heading {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  font-family: Houschka-medium;
+  font-size: 2.5rem;
+}
+
+.ba-heading a {
+  text-decoration: none;
+  color: white;
+}
+
+.ba-para {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+  font-family: Basis-regular;
+  font-size: 1.125rem;
+}
+
+.ba-para a {
+  text-decoration: none;
+  color: white;
+}
+
+.ba-para1 {
+  position: absolute;
+  top: 390px;
+  left: 30px;
+  padding: 5px;
+}
+
+.ba-para1 a {
+  text-decoration: none;
+  color: rgb(247, 6, 199);
+}
+
+/* 9) what we do */
+.wwdo {
+  background-color: white;
+  height: 684px;
+  width: 100%;
+  position: relative;
+}
+
+.bannerimg {
+  margin-left: 369px;
+}
+
+.banner2 {
+  height: 436px;
+  width: 771px;
+  position: absolute;
+  top: 110px;
+  left: 25%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+
+/* footer */
+.a {
+  background-color: #212529;
+}
+
+.foot-menu {
+  list-style-type: none;
+  overflow: auto;
+}
+
+.foot-items {
+  font-size: 0.75rem;
+  margin: 20px 0px;
+}
+
+.foot-link {
+  text-decoration: none;
+  color: #c9c9ce;
+}
+
+.foot-link:hover {
+  color: #fff;
+}
+
+.foot1 {
+  background-color: black;
+  height: 96px;
+  width: 100%;
+}
+
+.tcsl {
+  margin-top: 13px;
+  margin-left: 120px;
+}
+
+.p3 {
+  font-family: Basis-regular;
+  font-size: 0.7rem;
+  color: #f4f3f9;
+  margin-top: 43px;
+  margin-left: 65px;
+}
+
+.instafecc {
+  list-style-type: none;
+  display: flex;
+  margin-top: 38px;
+  margin-left: -45px;
+}
+
+.p4 {
+  margin-top: 25px;
+  font-family: basis-regular;
+  font-size: 12px;
+}
+
+.p4 a {
+  text-decoration: none;
+  color: #c9c9ce;
+}
+
+.p4 a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+
+  /* 1) Navigation Bar */
+  .ne {
+    margin-left: 0;
+  }
+
+  .nv {
+    margin-left: 0;
+  }
+
+  /* 3) Story */
+  .story {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .story1 {
+    margin: 40px;
+  }
+
+  .storyp1 {
+    margin-top: 20px;
+  }
+
+  /* 4) Qwetions */
+  .qwe {
+    height: auto;
+  }
+
+  .text1 {
+    position: static;
+    height: auto;
+  }
+
+  .para2,
+  .heading2 {
+    position: static;
+    top: auto;
+    left: auto;
+  }
+
+  /* 5) interest */
+  .interest {
+    height: auto;
+  }
+
+  .int1 {
+    flex-direction: column;
+  }
+
+  .interest1 a {
+    padding: 10px;
+  }
+
+  .link2,
+  .link3,
+  .link4 {
+    position: static;
+    top: auto;
+    left: auto;
+  }
+
+  /* 7) info */
+  .banner {
+    height: auto;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* 9) what we do */
+  .wwdo {
+    height: auto;
+  }
+
+  .banner2 {
+    height: auto;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* footer */
+  .tcsl {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,465 @@
+* {
+  font-size: 1vw;
+}
+.nvmain {
+  background-color: black !important;
+}
+.lg-1 {
+  margin-bottom: 15px;
+}
+.nl-1 {
+  color: white !important;
+  margin: 17px;
+}
+.nl-1:hover {
+  text-decoration: rgb(227, 12, 120) underline;
+  text-underline-offset: 15px;
+}
+.nl-2 {
+  font-family: basic-bold;
+  color: white !important;
+  margin: 17px;
+  margin-left: 243px;
+}
+.nl-2:hover {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+.nl-3 {
+  font-family: basic-bold;
+  color: white !important;
+  margin: 17px;
+  margin-left: 30px;
+}
+.nl-3:hover {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+.lg-2 {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.lg-3 {
+  margin-left: 5px;
+}
+
+.service1 {
+  margin-top: 80px;
+  height: 650px;
+  background-color: rgb(39, 44, 38);
+  position: relative;
+}
+
+.ba-mheading {
+  font-family: Houschka-medium;
+  font-size: 40px;
+  color: white;
+  margin-left: 70px;
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+.rw-1 {
+  position: absolute;
+  top: 107px;
+  left: 014px;
+}
+.bai {
+  margin-top: 30px;
+  background-color: rgb(39, 44, 38);
+}
+
+.img-ba {
+  height: 344px;
+  width: 349.99px;
+  border-radius: 5px;
+  position: relative;
+  transform: scale(1);
+  opacity: 0.7;
+}
+
+.img-ba:hover {
+  transform: scale(1.04);
+  transition: transform 3s;
+}
+
+.ba-heading {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  font-family: basis-regular;
+  font-size: 24px;
+}
+
+.ba-heading a {
+  text-decoration: none;
+  color: white;
+}
+
+.service-but1 a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 20px;
+  position: absolute;
+  top: 550px;
+  left: 44%;
+}
+
+/* EOI DISC Div */
+
+.disc {
+  height: 590px;
+  width: 100%;
+  background-color: black;
+}
+
+.heading4 {
+  color: aliceblue;
+}
+
+.tabs {
+  margin-top: 50px;
+  background-color: black;
+}
+
+.tabs-div {
+  background-color: rgb(3, 3, 3);
+  height: 400px;
+  position: relative;
+  opacity: 0.3;
+}
+
+.tabs-buttn {
+  position: absolute;
+  bottom: -8%;
+  left: 15%;
+  width: 60%;
+  border: none;
+  height: 100px;
+}
+
+.active1 {
+  opacity: 1;
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+.active2 {
+  bottom: -3%;
+  border: 2px solid rgb(247, 6, 199);
+}
+
+.img-fluid {
+  height: 400px;
+  position: relative;
+  opacity: 0.6;
+}
+
+.tabs-buttn {
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(247, 6, 199);
+}
+
+.bnhe4 {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-family: Houschka-medium;
+  color: rgb(247, 248, 246);
+}
+
+.bnp a {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.bnp1 a {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* what is hot right now? Div */
+
+.slide3 {
+  height: auto;
+  width: 100%;
+  background-color: black;
+}
+
+.ba-mheading1 {
+  font-family: Houschka-medium;
+  font-size: 32px;
+  color: white;
+}
+
+.bai1 {
+  height: 555px;
+  width: 460px;
+  margin-top: 30px;
+  background-color: black;
+}
+
+.img-ba1 {
+  height: 90%;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  transform: scale(1);
+  opacity: 0.7;
+}
+
+.img-ba1:hover {
+  transform: scale(1.04);
+  transition: transform 3s;
+}
+
+.ba-heding {
+  position: absolute;
+  top: 250px;
+  left: 30px;
+  font-family: Houschka-medium;
+  font-size: 4.5rem;
+}
+
+.ba-heding a {
+  text-decoration: none;
+  color: white;
+}
+
+.ba-para {
+  position: absolute;
+  top: 350px;
+  left: 30px;
+  font-family: Basis-regular;
+  font-size: 1.125rem;
+}
+
+.ba-para a {
+  text-decoration: none;
+  color: white;
+}
+
+.ba-para1 {
+  position: absolute;
+  top: 420px;
+  left: 30px;
+  padding: 5px;
+}
+
+.ba-para1 a {
+  text-decoration: none;
+  color: rgb(247, 6, 199);
+}
+.ba-heding1 {
+  position: absolute;
+  top: 260px;
+  left: 30px;
+  font-family: Houschka-medium;
+  font-size: 4.5rem;
+}
+
+.ba-heding1 a {
+  text-decoration: none;
+  color: white;
+}
+.ba-para11 {
+  position: absolute;
+  top: 350px;
+  left: 30px;
+  font-family: Basis-regular;
+  font-size: 1.125rem;
+}
+
+.ba-para11 a {
+  text-decoration: none;
+  color: white;
+}
+.ba-para12 {
+  position: absolute;
+  top: 390px;
+  left: 30px;
+  padding: 5px;
+}
+
+.ba-para12 a {
+  text-decoration: none;
+  color: rgb(247, 6, 199);
+}
+.ba-heding2 {
+  position: absolute;
+  top: 250px;
+  left: 30px;
+  font-family: Houschka-medium;
+  font-size: 4.5rem;
+}
+
+.ba-heding2 a {
+  text-decoration: none;
+  color: white;
+}
+.ba-para13 {
+  position: absolute;
+  top: 350px;
+  left: 30px;
+  font-family: Basis-regular;
+  font-size: 1.125rem;
+}
+
+.ba-para13 a {
+  text-decoration: none;
+  color: white;
+}
+.ba-para14 {
+  position: absolute;
+  top: 420px;
+  left: 30px;
+  padding: 5px;
+}
+
+.ba-para14 a {
+  text-decoration: none;
+  color: rgb(247, 6, 199);
+}
+
+/* <!-- stay in the know Div --> */
+
+.tr-img {
+  height: 400px;
+  width: 600px;
+}
+.tr-h2 {
+  color: white;
+  font-family: Houschka-Light;
+  font-size: 3.5rem;
+}
+.tr-p1 {
+  color: white;
+  font-family: basis-regular;
+  font-size: 1.125rem;
+}
+.tr-h5 a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid rgb(227, 12, 120);
+  border-radius: 50px;
+  padding: 10px;
+  background-color: rgb(227, 12, 120);
+}
+.tr-text {
+  margin-top: 70px;
+  margin-left: 160px;
+}
+.tr {
+  background-color: rgb(37, 37, 37);
+  height: 400px;
+}
+
+/* footer */
+.a {
+  background-color: #212529;
+}
+
+.foot-menu {
+  list-style-type: none;
+  overflow: auto;
+}
+
+.foot-items {
+  font-size: 0.75rem;
+  margin: 20px 0px;
+}
+
+.foot-link {
+  text-decoration: none;
+  color: #c9c9ce;
+}
+
+.foot-link:hover {
+  color: #fff;
+}
+
+.foot-heading1 {
+  margin-left: 35px;
+}
+
+.foot-heading1:hover {
+  text-decoration: white underline;
+}
+
+.foot-heading:hover {
+  text-decoration: white underline;
+}
+
+.foot-heading2 {
+  margin-left: 20px;
+}
+.foot-heading2:hover {
+  text-decoration: white underline;
+}
+
+.foot1 {
+  background-color: black;
+  height: 96px;
+  width: 100%;
+}
+
+.tcsl {
+  margin-top: 13px;
+  margin-left: 120px;
+}
+
+.p3 {
+  font-family: Basis-regular;
+  font-size: 0.7rem;
+  color: #f4f3f9;
+  margin-top: 43px;
+  margin-left: 65px;
+}
+
+.instafecc {
+  list-style-type: none;
+  display: flex;
+  margin-top: 38px;
+  margin-left: -45px;
+}
+
+.p4 {
+  margin-top: 25px;
+  font-family: basis-regular;
+  font-size: 12px;
+}
+
+.p4 a {
+  text-decoration: none;
+  color: #c9c9ce;
+}
+
+.p4 a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.in-con {
+  font-size: 18px;
+  display: inline-flex;
+}
+
+.inc-img {
+  position: relative;
+  left: auto !important;
+}

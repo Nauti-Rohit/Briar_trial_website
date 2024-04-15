@@ -1,0 +1,41 @@
+.nvmain{
+    background-color: black !important;
+}
+.lg-1{
+    margin-bottom: 15px;
+}
+.nl-1{
+    color: white !important;
+    margin: 17px;
+}
+.nl-1:hover{
+    text-decoration: rgb(227, 12, 120) underline;
+    text-underline-offset: 15px;
+}
+.nl-2{
+    font-family: basic-bold;
+    color: white !important;
+    margin: 17px;
+    margin-left: 259px;
+}
+.nl-2:hover{
+    text-decoration: underline;
+    text-underline-offset: 1px;
+}
+.nl-3{
+    font-family: basic-bold;
+    color: white !important;
+    margin: 17px;
+    margin-left: 30px;
+}
+.nl-3:hover{
+    text-decoration: underline;
+    text-underline-offset: 1px;
+}   
+.lg-2{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.lg-3{
+    margin-left: 5px;
+}
